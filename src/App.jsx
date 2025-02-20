@@ -26,7 +26,7 @@ function App() {
       setPasswordMessage(password ? '' : 'La contraseña es obligatoria');
       setIsInvalidInputs(true);
       valid = false;
-    } else if (password.length < 6) {
+    } else if (password.length < 7) {
       setPasswordMessage('La contraseña debe tener más de 6 caracteres');
       setIsInvalidInputs(true);
       valid = false;
